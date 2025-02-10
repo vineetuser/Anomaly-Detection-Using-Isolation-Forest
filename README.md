@@ -9,7 +9,7 @@
 The Isolation Forest algorithm is a powerful tool for anomaly detection, and its working mechanism is based on a simple yet effective idea: anomalies are "few and different." Here’s a breakdown of how it works:
 
 
-    ![Anomaly-Detection-using-Isolation-Forest-18](https://github.com/user-attachments/assets/840a6235-c39f-4cd3-85e4-bc5643f49aff)
+   ![Anomaly-Detection-using-Isolation-Forest-18](https://github.com/user-attachments/assets/840a6235-c39f-4cd3-85e4-bc5643f49aff)
 
 
 1. Building Isolation Trees
