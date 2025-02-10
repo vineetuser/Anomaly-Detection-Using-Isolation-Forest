@@ -30,3 +30,6 @@ Thresholding:
 Once every data point has an anomaly score, a threshold is applied. Data points with scores above this threshold are flagged as anomalies.
 Contamination Parameter:
 In practice, many implementations (like scikit-learn’s IsolationForest) let you set a contamination parameter that represents the expected proportion of anomalies in the data. This parameter helps in determining the threshold for classifying a point as an anomaly.
+
+![Anomaly-Detection-using-Isolation-Forest-18](https://github.com/user-attachments/assets/840a6235-c39f-4cd3-85e4-bc5643f49aff)
+
