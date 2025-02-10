@@ -8,6 +8,10 @@
 
 The Isolation Forest algorithm is a powerful tool for anomaly detection, and its working mechanism is based on a simple yet effective idea: anomalies are "few and different." Here’s a breakdown of how it works:
 
+
+    ![Anomaly-Detection-using-Isolation-Forest-18](https://github.com/user-attachments/assets/840a6235-c39f-4cd3-85e4-bc5643f49aff)
+
+
 1. Building Isolation Trees
 Random Subsampling:
 The algorithm begins by selecting a random subsample of the data (often without replacement). This reduces computational overhead and helps build a diverse set of trees.
@@ -31,5 +35,4 @@ Once every data point has an anomaly score, a threshold is applied. Data points 
 Contamination Parameter:
 In practice, many implementations (like scikit-learn’s IsolationForest) let you set a contamination parameter that represents the expected proportion of anomalies in the data. This parameter helps in determining the threshold for classifying a point as an anomaly.
 
-   ![Anomaly-Detection-using-Isolation-Forest-18](https://github.com/user-attachments/assets/840a6235-c39f-4cd3-85e4-bc5643f49aff)
 
